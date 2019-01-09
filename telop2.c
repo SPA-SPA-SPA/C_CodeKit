@@ -1,4 +1,4 @@
-/*字符串会像字幕一样滚动显示（从左到右）*/
+/*字符串会像字幕一样滚动显示（从右到左）*/
 #include <time.h>
 #include <stdio.h>
 #include <string.h>
@@ -35,10 +35,10 @@ int main(int argc, char const *argv[])
         fflush(stdout);
         sleep(500);
         
-        if (cnt < name_len - 1)
-            cnt++;
+        if (cnt > 0)         // 对比telop1.c，修改了这里
+            cnt--;
         else
-            cnt = 0;
+            cnt = name_len - 1;
     }
     return 0;
 }
