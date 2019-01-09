@@ -18,24 +18,24 @@ int sleep (unsigned long x)
 int main(int argc, char const *argv[])
 {
     int i;
-    char name[] = "LaiJunYu is going to be the richest and the strongest!";
-    int name_len = strlen(name);
+    char name[] = "LaiJunYu is going to be the richest and the strongest!";     // 要显示的字符串
+    int name_len = strlen(name);                                                // 字符串的字符个数
 
     
     while(1){
         
-        for( i = 0; i < name_len; i++)
+        for( i = 0; i < name_len; i++)                      // 从头开始逐个显示字符
         {
             putchar(name[i]);
             fflush(stdout);
-            sleep(300);
+            sleep(100);
         }
 
-        for(i=0; i < name_len; i++)
+        for(i=0; i < name_len; i++)                        // 从末尾开始逐个消除字符
         {
             printf("\b \b");
             fflush(stdout);
-            sleep(300);
+            sleep(100);
         }
     }
     return 0;

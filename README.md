@@ -6,3 +6,4 @@
 |return.c|回车符\\r用于重写行|
 |countdown.c|clock()函数获取程序启动后经过的时间的例子：倒数|
 |sleep_function.c|function意思是函数，所以这是一个带有解释的函数源文件|
+|elastic.c|让字符串的字符逐个显示并消除，重复|
