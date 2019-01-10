@@ -32,10 +32,10 @@ int main(int argc, char const *argv[])
                 printf("\\v");
                 break;
             default:
-                printf("%c", isprint(i) ? i : ' ');
+                printf("%2c", isprint(i) ? i : ' ');
                 break;
         }
-        printf("%02x\n", i);
+        printf("    %02x\n", i);        // 前面显示一段距离
     }
     return 0;
 }
