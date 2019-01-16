@@ -16,3 +16,8 @@
 |wchar.c|宽字符的使用示例。|
 |asctime2.c|asctime函数不换行版。以字符串形式输出当前的日期和时间。|
 |ctime2.c|ctime函数不换行版。直接调用asctime2函数即可。|
+|argtest.c|普通方式遍历argv|
+|argtest1.c|通过指针以字符串为单位遍历argv|
+|argtest2.c|通过指针以字符为单位遍历argv|
+|argtest3.c|不使用argc来遍历argv|
+|recmain.c|main函数调用main函数的示例|
