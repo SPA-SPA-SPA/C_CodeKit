@@ -21,3 +21,5 @@
 |argtest2.c|通过指针以字符为单位遍历argv|
 |argtest3.c|不使用argc来遍历argv|
 |recmain.c|main函数调用main函数的示例|
+
+you mother fuck!
