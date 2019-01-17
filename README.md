@@ -20,6 +20,7 @@
 |argtest1.c|通过指针以字符串为单位遍历argv|
 |argtest2.c|通过指针以字符为单位遍历argv|
 |argtest3.c|不使用argc来遍历argv|
-|recmain.c|main函数调用main函数的示例|
+|recmain.c|main函数调用main函数的示例。|
+|getchwin.c|visual C++编程环境（一般是Windows环境）中特有的getch和putch函数的示例。|
+|getchuni.c|UNIX和Linux通过Curses库来提供getch函数。是在UNIX/Linux/OS X实现和getchwin.c一样的功能的一个示例。|
 
-you mother fuck!
