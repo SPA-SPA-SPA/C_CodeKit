@@ -1,5 +1,6 @@
 /*getch的使用示例
 在提供了Curses库的UNIX/Linux/OS X环境下运行。
+运行的命令应该类似于：./getchuni
 ---以下资料来自百度百科---
 curses是一个在Linux/Unix下广泛应用的图形函数库.，作用是可以绘制在DOS下的用户界面和漂亮的图形。
 在Ubuntu中安装curses可以使用如下命令：
