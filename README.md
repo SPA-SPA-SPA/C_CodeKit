@@ -23,4 +23,4 @@
 |recmain.c|main函数调用main函数的示例。|
 |getchwin.c|visual C++编程环境（一般是Windows环境）中特有的getch和putch函数的示例。|
 |getchuni.c|UNIX和Linux通过Curses库来提供getch函数。是在UNIX/Linux/OS X实现和getchwin.c一样的功能的一个示例。|
-
+|getputch.h|getchwin和getchuni的统一，一个能吸收两个环境的差异的通用库。|
